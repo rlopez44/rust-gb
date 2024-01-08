@@ -1,0 +1,17 @@
+[package]
+name = "rust-gb"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rodrigo Lopez"]
+description = "A Nintendo Game Boy emulator."
+documentation = "https://github.com/rlopez44/rust-gb"
+repository = "https://github.com/rlopez44/rust-gb"
+license = "MIT"
+
+[[bin]]
+name = "rgb"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
